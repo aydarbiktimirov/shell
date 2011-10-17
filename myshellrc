@@ -1,0 +1,9 @@
+# PS1 greeting
+PS1	"\033[1;32m$(whoami)@$(hostname)\033[0m
+\033[1;34m$(pwd) $\033[0m "
+
+# PATH
+PATH "/bin:/usr/bin:/usr/local/bin:/sbin"
+
+# how many commands to save
+HISTORY	500
